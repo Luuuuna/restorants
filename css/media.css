@@ -1,0 +1,74 @@
+@media screen and (max-width: 576px) {
+ 
+ 
+    /*header*/
+    .enter_basket {
+
+        display: none;
+    }
+
+    /*hero*/
+
+    .hero {
+        background-image: url(../img/d42ea9bbf7aff297c2e1eb5e5f3b7fa6-w1080-87.png);
+        height: 255px;
+    }
+
+    .hero-menu {
+        margin-top: 131px;
+        max-width: 308px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-h1 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .hero-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero-info-category {
+        margin-bottom: 16px;
+    }
+/*menu*/
+
+.menu {
+     visibility: hidden;
+}
+
+/*cards*/
+.cards_title {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.line {
+    height: 1px;
+    width: 50px;
+    background: #757575;
+    margin: 0 auto 43px;
+}
+
+.cards_name {
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.car-right {
+    margin-top: 16px;
+}
+
+
+
+}
+
+@media screen and (max-width: 960px) {
+    .cards_name {
+        width: 100%;
+    }
+}
